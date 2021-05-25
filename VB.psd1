@@ -1,6 +1,7 @@
 @{
-   RootModule        = 'vb.psm1'
-   ModuleVersion     = '0.0.1'
+   RootModule        = 'VB.psm1'
+   ModuleVersion     = '0.1'
+
    FunctionsToExport = @(
      'typeName'   ,
      'lBound'     ,
