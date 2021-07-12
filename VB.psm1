@@ -84,7 +84,7 @@ function isReference($obj) {
 
 function appActivate($procName) {
  #
- # TODO: AppActivate() can be invoked with either the application's title (case insenstive, but no partial name) or
+ # TODO: AppActivate() can be invoked with either the application's title (case insensitive, but no partial name) or
  #       the application's process ID (as is done in the following).
  #
    [Microsoft.VisualBasic.Interaction]::AppActivate( (get-process $procName).id )
