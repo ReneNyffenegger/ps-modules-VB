@@ -5,6 +5,9 @@ set-strictMode -version latest
 
 function init() {
 
+ #
+ # TODO: Should the following assembly be loaded?
+ #
    $assembly = [System.Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic')
 
    if ($assembly -eq $null) {
